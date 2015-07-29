@@ -28,7 +28,7 @@ LICENSE
   s.summary  = 'Practical real-world dates. Updated for iOS7 and up.'
   s.homepage = 'http://ericasadun.com'
   s.author   = { 'Erica Sadun' => 'erica@ericasadun.com' }
-  s.source   = { :git => 'git@github.com:HiTask/NSDate-Extensions.git', :tag => '1.0.1' }
+  s.source   = { :git => 'https://github.com/HiTask/NSDate-Extensions.git', :tag => '1.0.1' }
   s.platform = :ios
   s.source_files = 'NSDate+Utilities.{h,m}'
   s.framework = 'Foundation'
