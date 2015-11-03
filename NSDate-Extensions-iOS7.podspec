@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'NSDate-Extensions-iOS7'
-  s.version  = '1.0.1'
+  s.version  = '1.0.2'
   s.license      = { :type => 'MIT', :text => <<-LICENSE
 The MIT License (MIT)
 
@@ -28,8 +28,8 @@ LICENSE
   s.summary  = 'Practical real-world dates. Updated for iOS7 and up.'
   s.homepage = 'http://ericasadun.com'
   s.author   = { 'Erica Sadun' => 'erica@ericasadun.com' }
-  s.source   = { :git => 'https://github.com/HiTask/NSDate-Extensions.git', :tag => '1.0.1' }
-  s.platform = :ios
+  s.source   = { :git => 'https://github.com/fchaillou/NSDate-Extensions.git', :tag => '1.0.2' }
+  s.platform = :ios, '8.0'
   s.source_files = 'NSDate+Utilities.{h,m}'
   s.framework = 'Foundation'
   s.requires_arc = true
